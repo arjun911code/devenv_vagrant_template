@@ -1,0 +1,5 @@
+Django >= 1.8.4, < 1.9
+pyflakes >= 1.0.0
+virtualenv >= 1.9
+PyYAML==3.11
+sqlalchemy==1.0.6
