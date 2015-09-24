@@ -1,1 +1,1 @@
-vagrant with puppet for provisioning
+vagrant with puppet for provisioning dev env
