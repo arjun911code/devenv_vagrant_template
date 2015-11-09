@@ -7,7 +7,7 @@ class requirements::install {
         command => "sudo apt-get update"
     }
 
-    package{ ["python", "python-dev", "python-pip"]:
+    package{ ["python", "python-dev", "python-pip", "tree"]:
         ensure => present,
         require => Exec['update-apt'],
     }
