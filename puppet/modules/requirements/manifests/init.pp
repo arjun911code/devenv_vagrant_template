@@ -1,5 +1,5 @@
 class requirements {
-
+include requirements::install
 }
 
 class requirements::install {
